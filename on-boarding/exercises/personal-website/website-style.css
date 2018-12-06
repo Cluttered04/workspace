@@ -1,0 +1,31 @@
+header {
+    width: 100vw;
+    height: 100vh;
+    background: white
+        url(https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?auto=compress&cs=tinysrgb&h=350) 
+        no-repeat top right;
+}
+
+body {
+    font: Roboto;
+    background-color: #494949;
+    color: #f4c20c;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font: Noto Sans TC;
+}
+
+h1 {
+    font-size 2em;
+}
+
+aside {
+    width: 35vw;
+}
+
+footer {
+    text-align: center;
+}
+
