@@ -1,0 +1,40 @@
+body {
+    background-color: gray;
+    color: blue;
+    font-style: Noto Serif SC;
+    font-size: 1.5rem;
+    
+}
+
+
+#current-weather {
+    color: black;
+    height: 20vh;
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2veArMffc7tWn-S_LiUcOJZCrdjX-cEe6pdzYbL5M3EEAgOoa);
+    repeat: no-repeat;
+}
+
+
+#weather-forecast {
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ 
+}
+
+
+.forecast-Friday {
+    padding: 1rem;
+}
+
+.forecast-Saturday {
+    padding: 1rem;
+}
+
+.forecast-Sunday {
+    padding: 1rem;
+}
