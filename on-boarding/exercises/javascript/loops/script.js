@@ -80,8 +80,10 @@ var sentenceArray = ["the", "cow", "danced", "through", "the", "trees", "in", "t
 
 var cowString = "";
 
+
 for (var c = 0 ; c < sentenceArray.length ; c++) {
     cowString = cowString + `<p>${sentenceArray[c]}</p>`
+
 }
 
 sentenceContainer = document.querySelector("#cow-sentence");
@@ -93,8 +95,6 @@ var downtownRestaurants = ["Backyard Pizza and Raw Bar", "The Bodega", "Surin of
 var restString = "";
 
 for (var j = 0; j < downtownRestaurants.length; j++) {
-    // var downtown = `<li>${downtownRestaurants[j]}</li>`;
-    // restString = restString + downtown;
     restString = restString + `<li>${downtownRestaurants[j]}</li>`
 }
 
@@ -152,7 +152,6 @@ var HTMLString = "";
 
   movieContainer = document.querySelector("#movie-schedule");
   movieContainer.innerHTML = HTMLString;
-
 
 
 
