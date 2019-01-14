@@ -1,0 +1,80 @@
+/* Convert the ul in the navigation element into a series of horizontal links with # as the href value, without bullets, and have some space between them horizontally.
+Ensure that the navigation is semantically marked as such (i.e. wrap it in the correct HTML tag).
+
+Any text in an element with class "disabled" should be colored grey, unless it is inside an anchor tag. If inside an anchor, it should be colored purple.
+
+Any text inside an element with a class of "active" should be colored yellow.
+
+Section elements should be contained within an article element.
+
+There are two missing closing tags in this document. Make sure you add them back in.*/
+
+header {
+    border: 1px goldenrod;
+}
+
+header ul { 
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: .5em 2em;    
+}
+
+.disabled {
+    color: gray;
+}
+
+a .disabled {
+    color: purple;
+}
+
+.active {
+    color: yellow;
+}
+
+/* Make the "I'm red" text colored red.
+
+Make the "I'm blue" text colored blue.
+
+The sibling h4 of the red element should have a background color of red.
+
+The sibling h4 of the blue element should have background color of blue. */
+
+.parent div:first-child {
+    color: red;
+}
+
+.parent div:first-child + h4 {
+    background-color: red;
+}
+
+.parent div:nth-child(3) {
+    color: blue;
+}
+
+.parent div:nth-child(3) + h4 {
+    background-color: blue;
+}
+
+/* Any h4 that is a direct child of grandparent should have a 1px border with rounded corners.
+
+Elements with a class of promo should have bold text that is also colored gold.
+
+Without adding any other attributes to the input fields in the footer, write a CSS selector that makes any text input field have a height of 25px.
+Note: You are not allowed to add id and class attributes to any component */
+
+.grandparent > h4 {
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.promo {
+    font-weight: bold;
+    color: gold;
+}
+
+input[type="text"] {
+    height: 25px;
+}
