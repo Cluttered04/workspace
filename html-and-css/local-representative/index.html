@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <!-- In your HTML, create an article tag that will serve as your main representative component. Give the element a unique identifier.
+        In this component, create a sub-component for basic information using the section tag. In this section create elements for the representative's image, name, district info, and political affiliation.
+        Beneath the basic information, you will create a sub-component, using a section tag, to list any committees the candidate is serving on.
+        The last component will hold links to any legislation that your representative has enacted.
+        Make sure you use good BEM-style class names for each element in your components. Put a comment above each component explaining what it is. -->
+    <!-- Main page body -->
+        <article class="page-body">
+        <!-- Representative information -->
+        <section class="basic-info">
+            <!-- Representative Photo -->
+            <img src="https://www.govtrack.us/data/photos/400061-100px.jpeg" alt="" class="basic-info_image">
+            <!-- Representative's Name -->
+            <h1 class="basic-info_name">Carol Miller</h1>
+            <!-- Representive District -->
+            <h2 class="basic-info_district">Third District of West Virginia</h2>
+            <!-- Representative's party affiliation -->
+            <p class="basic-info_affiliation"></p>
+        </section>
+        
+        <!-- Subcommittees -->
+        <section class="subcommitees">
+            <ul class="subcommitees_ul">
+                <h2 class="subcommitees_header">Subcommitees served on</h2>
+                <li class="subcommitees_name">Agriculture</li>
+                <li class="subcommitees_name">Finance</li>
+                <li class="subcommitees_name">Rules</li>
+            </ul>
+        </section>
+
+        <!-- Legislation enacted -->
+        <section class="legislation-body">
+            <ul class="legislation-body_ul">
+                <h2 class="legislation-body_header">Bills Sponsored</h2>
+                <li class="legislation-body_passed">H.R.116</li>
+                <li class="legislation-body_passed">H.R.221</li>
+                <li class="legislation-body_passed">S.24</li>
+            </ul>
+        </section>
+    </article>
+</body>
+</html>
